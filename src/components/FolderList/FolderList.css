@@ -1,0 +1,52 @@
+.folder-list {
+  background-color: #f6f6f6;
+  border: 1px solid #d2d2d2;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.folder-title {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+.document-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.document-item {
+  padding: 10px 0;
+  display: flex;
+  /* Align contents left */
+  align-items: center;
+  /* Align contents vertically center */
+  border-radius: 25px;
+  /* Add rounded edges */
+}
+
+/* Apply different background colors to alternate document list items */
+.document-item:nth-child(even) {
+  background-color: #f1f1f1;
+  /* Lighter shade background */
+}
+
+.document-item:nth-child(odd) {
+  background-color: #e0e0e0;
+  /* Darker shade background */
+}
+
+.document-link {
+  color: #070707;
+  text-decoration: none;
+  margin-left: 10px;
+  /* Add some space between icon and title */
+}
+
+.document-link:hover {
+  text-decoration: underline;
+  color: #007bff;
+  transform: scale(1.05);
+}
