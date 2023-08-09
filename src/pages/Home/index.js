@@ -4,8 +4,8 @@ import CardList from '../../components/cardList/cardList.component';
 import './homePage.css';
 import dashboards from '../../models/dashboards';
 import { Tabs, Box, Tab } from '@mui/material';
-import CustomTabPanel from '../../components/CustomPanel';
-import FolderList from '../../components/FolderList/FolderList';
+import CustomTabPanel from '../../components/CustomPanel.component';
+import FolderList from '../../components/FolderList/FolderList.component';
 import ab_documents from '../../models/ab_documents';
 import insight_documents from '../../models/insight_documents';
 
